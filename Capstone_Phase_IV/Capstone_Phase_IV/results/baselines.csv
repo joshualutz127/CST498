@@ -1,0 +1,7 @@
+partition,baseline,accuracy,log_loss
+Training,Training class frequency,0.5756891984695379,0.6816453052233135
+Training,Supplied Elo probability,0.6534876876287649,0.6195381837463056
+Validation,Training class frequency,0.5479969765684052,0.6900942497531154
+Validation,Supplied Elo probability,0.6417233560090703,0.6493153678556982
+Test,Training class frequency,0.5825757575757575,0.6795442041958342
+Test,Supplied Elo probability,0.6303030303030303,0.655504895030666

@@ -1,0 +1,19 @@
+{
+  "features": [
+    "elo_diff",
+    "form1",
+    "form2"
+  ],
+  "data_file": "basketball_games_raw_538.csv",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "sklearn": "1.8.0",
+  "total_seconds": 4.03869854200002,
+  "split_counts": {
+    "Training": 10193,
+    "Validation": 1323,
+    "Test": 1320
+  },
+  "evaluation": "Sequential historical backtest; previous completed games update recent form."
+}

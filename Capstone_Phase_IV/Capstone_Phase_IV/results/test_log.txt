@@ -1,0 +1,13 @@
+test_chronological_partitions (__main__.IntegrationTests.test_chronological_partitions) ... ok
+test_current_score_not_used_in_own_features (__main__.IntegrationTests.test_current_score_not_used_in_own_features) ... ok
+test_duplicate_game_rejected (__main__.IntegrationTests.test_duplicate_game_rejected) ... ok
+test_metric_exports_reconcile (__main__.IntegrationTests.test_metric_exports_reconcile) ... ok
+test_missing_column (__main__.IntegrationTests.test_missing_column) ... ok
+test_missing_file (__main__.IntegrationTests.test_missing_file) ... ok
+test_missing_test_season (__main__.IntegrationTests.test_missing_test_season) ... ok
+test_probability_range_rejected (__main__.IntegrationTests.test_probability_range_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.345s
+
+OK

@@ -1,0 +1,13 @@
+NBA integration and testing run
+Features: ['elo_diff', 'form1', 'form2']
+Fixed models; no validation or test tuning; threshold 0.5
+Training: 10193 games, 2013-10-29 to 2021-07-20
+Validation: 1323 games, 2021-10-19 to 2022-06-16
+Test: 1320 games, 2022-10-18 to 2023-06-12
+Logistic Regression | Training | accuracy 0.6554 | log loss 0.6140
+Logistic Regression | Validation | accuracy 0.6561 | log loss 0.6368
+Logistic Regression | Test | accuracy 0.6303 | log loss 0.6481
+Random Forest | Training | accuracy 1.0000 | log loss 0.1754
+Random Forest | Validation | accuracy 0.6077 | log loss 0.6898
+Random Forest | Test | accuracy 0.6030 | log loss 0.6840
+Evidence saved to /workspace/scratch/c5ad1f29644f/deliverables/Capstone_Phase_IV/results

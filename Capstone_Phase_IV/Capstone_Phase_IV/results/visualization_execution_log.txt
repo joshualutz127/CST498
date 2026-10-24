@@ -1,0 +1,48 @@
+Games 2014-2023: 12,836
+Home win rate: 0.574
+elo_prob1 = 1 / (1 + 10 ** (-(elo_diff + 100) / 400))
+  maximum difference from the file: 1.81e-09
+Saved fig1_correlation_matrix.png
+
+Strongest correlations (absolute value):
+elo1_pre      elo1_post       0.99
+elo_diff      elo_prob1       0.99
+elo2_pre      elo2_post       0.99
+score_ratio   point_margin    0.99
+point_margin  home_win        0.80
+score_ratio   home_win        0.78
+elo1_pre      elo_diff        0.69
+elo2_pre      elo_diff        0.69
+
+Team-season correlation matrix:
+                 avg_pregame_elo  win_pct  avg_margin  points_for  points_against
+avg_pregame_elo             1.00     0.94        0.93        0.38           -0.32
+win_pct                     0.94     1.00        0.96        0.38           -0.35
+avg_margin                  0.93     0.96        1.00        0.40           -0.36
+points_for                  0.38     0.38        0.40        1.00            0.72
+points_against             -0.32    -0.35       -0.36        0.72            1.00
+Saved fig2_team_elo_vs_win_pct.png
+Saved fig3_elo_prob1_vs_score_ratio.png
+Saved fig4_3d_elo_prob1_over_scores.png
+Saved fig5_scores_colored_by_elo_prob1.png
+Saved fig6_distributions.png
+
+Prediction performance report
+Features: ['elo_diff', 'form1', 'form2']
+
+Training (2014-2021, 10,193 games)
+  Accuracy: 0.655
+  Confusion matrix (rows = actual, cols = predicted)
+                 Pred away  Pred home
+  Actual away        2,099      2,226
+  Actual home        1,287      4,581
+
+Validation (2022-2023, 2,643 games)
+  Accuracy: 0.643
+  Confusion matrix (rows = actual, cols = predicted)
+                 Pred away  Pred home
+  Actual away          494        655
+  Actual home          288      1,206
+
+Validation baselines: always pick home = 0.565, pick higher elo_prob1 = 0.636
+Saved fig7_confusion_matrices.png
